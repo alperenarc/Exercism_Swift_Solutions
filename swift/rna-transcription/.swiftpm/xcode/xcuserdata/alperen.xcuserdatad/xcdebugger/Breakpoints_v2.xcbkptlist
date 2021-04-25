@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "B9A44547-04C6-4F62-8D48-4B496539D322"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1E2D8C92-EE3F-43C4-A273-7762E92BB920"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sources/RnaTranscription/RnaTranscription.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "findLetterComplement(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8F4439C7-D26C-4E8C-BB9C-5FE0555DA8F1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sources/RnaTranscription/RnaTranscription.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "findLetterComplement(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8F4439C7-D26C-4E8C-BB9C-5FE0555DA8F1 - 649c6913f47630b3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RnaTranscription.Nucleotide.findLetterComplement(Swift.Character) throws -&gt; Swift.Character"
+                  moduleName = "RnaTranscriptionTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alperen/Exercism/swift/rna-transcription/Sources/RnaTranscription/RnaTranscription.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "880">
+               </Location>
+               <Location
+                  uuid = "8F4439C7-D26C-4E8C-BB9C-5FE0555DA8F1 - 649c6913f47630b3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RnaTranscription.Nucleotide.findLetterComplement(Swift.Character) throws -&gt; Swift.Character"
+                  moduleName = "RnaTranscriptionTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alperen/Exercism/swift/rna-transcription/Sources/RnaTranscription/RnaTranscription.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "1204">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8A86CCFC-C6AD-4B8B-89E8-9C44BCF2491F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sources/RnaTranscription/RnaTranscription.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "complementOfDNA()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
