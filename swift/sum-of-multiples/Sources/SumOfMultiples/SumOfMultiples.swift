@@ -3,6 +3,7 @@
 //
 //If we list all the natural numbers below 20 that are multiples of 3 or 5, we get 3, 5, 6, 9, 10, 12, 15, and 18.
 //
+
 //The sum of these multiples is 78. //
 import Foundation
 struct SumOfMultiples {
@@ -29,3 +30,7 @@ struct SumOfMultiples {
         return set.reduce(0, +)
     }
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 9682d8c4257a23963002f7e07f12693c3c8cf4ab
