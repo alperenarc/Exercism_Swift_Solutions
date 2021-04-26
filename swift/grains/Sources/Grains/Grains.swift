@@ -15,7 +15,7 @@
 import Foundation
 
 struct Grains {
-    static var total = UInt64.max
+    static let total = UInt64.max
 
     static func square(_ squareCount: Int) throws -> UInt {
 
@@ -24,20 +24,10 @@ struct Grains {
         } else if squareCount > 64 {
             throw GrainsError.inputTooHigh(message: "Input[\(squareCount)] invalid. Input should be between 1 and 64 (inclusive)")
         }
-        if squareCount == 1 {return 1}
         
-        var previous: UInt = 1
-        total = 0
-        for _ in 1...squareCount - 1 {
-            if total == 0 {
-                total = 1
-            }
-            total = UInt64(previous * 2)
-            previous *= 2
-
-        }
-
-        return UInt(total)
+        let inTotal = pow(2.0, Double(squareCount) - 1)
+        
+        return UInt(inTotal)
     }
 
     enum GrainsError: Error {
