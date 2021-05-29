@@ -30,7 +30,3 @@ struct SumOfMultiples {
         return set.reduce(0, +)
     }
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> 9682d8c4257a23963002f7e07f12693c3c8cf4ab
